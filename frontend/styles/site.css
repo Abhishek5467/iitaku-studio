@@ -36,7 +36,12 @@ h1,h2,h3,h4,p{margin:0}
 .header-contact{display:flex;align-items:center;gap:12px;font-size:14px;background:#242529;border:1px solid #34353a;padding:9px 16px;border-radius:6px}.header-contact:hover{background:#303137}
 .mobile-menu-button{display:none;background:none;border:0}.mobile-nav{display:none}
 .skip-link{position:absolute;top:-100px;left:20px;background:var(--primary);color:#101113;padding:10px 20px;z-index:100}.skip-link:focus{top:10px}
-.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:65px;align-items:center;padding-block:95px 85px}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:65px;align-items:center;padding-block:95px 85px;position:relative;isolation:isolate}
+.hero-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;mask-image:linear-gradient(transparent,#000 15%,#000 80%,transparent)}
+.canvas-toggle{position:absolute;right:0;bottom:16px;font-size:11px;color:#b4b5bd;background:#1a1b1e;border:1px solid #393a3e;border-radius:20px;padding:6px 12px;cursor:pointer}
+.canvas-toggle:hover{color:#fff;border-color:#46b4a8}
+.canvas-toggle:focus-visible{outline:2px solid #46b4a8;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.canvas-toggle{display:none}}
 .eyebrow,.section-number{font-size:12px;letter-spacing:1.8px;font-weight:600;color:#a6a7ae}.eyebrow{display:flex;gap:10px;align-items:center;letter-spacing:1.3px;font-size:13px}.little-star{font-size:25px;color:var(--primary)}
 h1{font-size:clamp(44px,4.8vw,68px);line-height:1.12;letter-spacing:-3.7px;font-weight:500;margin:23px 0 24px}
 h1 em,h2 em{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-2px}h1 em{color:var(--primary)}
