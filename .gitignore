@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.venv/
+.env
+.env.local
+__pycache__/
+*.pyc
+*.tsbuildinfo
+backend/jobs/
+backend/weights/
+backend/private_products/
+training/pairs/
+training/runs/

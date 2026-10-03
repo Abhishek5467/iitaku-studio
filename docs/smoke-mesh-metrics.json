@@ -1,0 +1,32 @@
+[
+  {
+    "object_id": "synthetic-10",
+    "identity": {
+      "chamfer_distance": 0.013425322659885183,
+      "normal_consistency": 0.9926610653113644
+    },
+    "subdivision": {
+      "chamfer_distance": 0.013666572437756246,
+      "normal_consistency": 0.9929321549815169
+    },
+    "refiner": {
+      "chamfer_distance": 0.013422006427735717,
+      "normal_consistency": 0.9926561641966157
+    }
+  },
+  {
+    "object_id": "synthetic-11",
+    "identity": {
+      "chamfer_distance": 0.018639580789072477,
+      "normal_consistency": 0.9882801643912398
+    },
+    "subdivision": {
+      "chamfer_distance": 0.01827172568393507,
+      "normal_consistency": 0.9887259030305433
+    },
+    "refiner": {
+      "chamfer_distance": 0.01864587019664794,
+      "normal_consistency": 0.9882633377835098
+    }
+  }
+]

@@ -1,0 +1,9 @@
+numpy>=2,<3
+scipy>=1.15,<2
+Pillow>=11,<13
+trimesh>=4.9,<5
+fast-simplification>=0.1,<1
+open3d>=0.19,<1
+scikit-image>=0.25,<1
+objaverse>=0.1.7,<1
+# Kaggle supplies torch. Locally install the CPU/CUDA wheel appropriate to your hardware.

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "crate",
+    "vertices": 40,
+    "triangles": 60,
+    "licence": "CC0"
+  },
+  {
+    "name": "platform",
+    "vertices": 32,
+    "triangles": 48,
+    "licence": "CC0"
+  },
+  {
+    "name": "portal",
+    "vertices": 48,
+    "triangles": 72,
+    "licence": "premium"
+  },
+  {
+    "name": "lantern",
+    "vertices": 98,
+    "triangles": 156,
+    "licence": "premium"
+  }
+]
