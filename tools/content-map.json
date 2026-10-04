@@ -1,0 +1,24 @@
+{
+  "files": {
+    "18427156720024397.mp4": {
+      "title": "Neon tunnel", "category": "3D & shading",
+      "caption": "Environment, lighting and motion", "alt": "A neon-lit 3D tunnel",
+      "posterSeconds": 18, "hero": "main", "replaceArt": "tunnel"
+    },
+    "17990602127426524.mp4": {
+      "title": "Time, rendered", "category": "3D & shading",
+      "caption": "A clock study in form and materials", "alt": "A gold clock with a red face",
+      "posterSeconds": 2, "replaceArt": "clock"
+    },
+    "18080572615482635.mp4": {
+      "title": "Orange sci-fi study", "category": "3D & shading",
+      "caption": "Hard-surface modeling and emissive materials", "alt": "An orange 3D object with cyan emissive strips",
+      "posterSeconds": 1
+    },
+    "18020911775184759.mp4": {
+      "title": "Shader experiments", "category": "3D & shading",
+      "caption": "Materials, light and effects in Blender", "alt": "A green Blender monkey head with glowing blue effects",
+      "posterSeconds": 25
+    }
+  }
+}
